@@ -16,17 +16,7 @@ namespace Fastfood_Order
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        //edit forntend
         private void BTN_Ga_Ran_Click(object sender, EventArgs e)
         {
 

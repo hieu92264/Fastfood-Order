@@ -159,7 +159,6 @@
             this.BTN_Ga_Vien.Text = "Gà viên Cola";
             this.BTN_Ga_Vien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTN_Ga_Vien.UseVisualStyleBackColor = true;
-            this.BTN_Ga_Vien.Click += new System.EventHandler(this.button2_Click);
             // 
             // BTN_Ga_Ran
             // 
@@ -341,7 +340,6 @@
             this.ForeColor = System.Drawing.Color.Red;
             this.Name = "Form1";
             this.Text = "E-Order Application";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
