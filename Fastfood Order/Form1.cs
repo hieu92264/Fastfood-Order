@@ -21,5 +21,15 @@ namespace Fastfood_Order
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BTN_Ga_Ran_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
