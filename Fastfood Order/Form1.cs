@@ -17,9 +17,16 @@ namespace Fastfood_Order
             InitializeComponent();
         }
         //edit forntend
+        public string TenMon;
+        public int dem;
         private void BTN_Ga_Ran_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BTN_Pho_mai_bo_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

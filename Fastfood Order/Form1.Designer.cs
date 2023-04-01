@@ -30,22 +30,22 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BTN_Khoai_tay_chien = new System.Windows.Forms.Button();
+            this.BTN_Cam = new System.Windows.Forms.Button();
+            this.BTN_Cafe = new System.Windows.Forms.Button();
+            this.BTN_Lipton = new System.Windows.Forms.Button();
+            this.BTN_7_up = new System.Windows.Forms.Button();
+            this.BTN_Coca = new System.Windows.Forms.Button();
+            this.BTN_Pepsi = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.BTN_Ga_Ran = new System.Windows.Forms.Button();
+            this.BTN_Ga_Vien = new System.Windows.Forms.Button();
+            this.BTN_tom_vien = new System.Windows.Forms.Button();
             this.BTN_Pho_mai_ca = new System.Windows.Forms.Button();
             this.BTN_Pho_mai_tom = new System.Windows.Forms.Button();
             this.BTN_Pho_mai_ga = new System.Windows.Forms.Button();
             this.BTN_Pho_mai_bo = new System.Windows.Forms.Button();
-            this.BTN_tom_vien = new System.Windows.Forms.Button();
-            this.BTN_Ga_Vien = new System.Windows.Forms.Button();
-            this.BTN_Ga_Ran = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.BTN_Pepsi = new System.Windows.Forms.Button();
-            this.BTN_Coca = new System.Windows.Forms.Button();
-            this.BTN_7_up = new System.Windows.Forms.Button();
-            this.BTN_Lipton = new System.Windows.Forms.Button();
-            this.BTN_Cafe = new System.Windows.Forms.Button();
-            this.BTN_Cam = new System.Windows.Forms.Button();
-            this.BTN_Khoai_tay_chien = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CB_Table = new System.Windows.Forms.ComboBox();
             this.BTN_Order = new System.Windows.Forms.Button();
             this.BTN_Exit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -94,6 +94,115 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh mục món ăn";
             // 
+            // BTN_Khoai_tay_chien
+            // 
+            this.BTN_Khoai_tay_chien.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BTN_Khoai_tay_chien.Location = new System.Drawing.Point(245, 105);
+            this.BTN_Khoai_tay_chien.Name = "BTN_Khoai_tay_chien";
+            this.BTN_Khoai_tay_chien.Size = new System.Drawing.Size(156, 23);
+            this.BTN_Khoai_tay_chien.TabIndex = 13;
+            this.BTN_Khoai_tay_chien.Text = "Khoai tây chiên";
+            this.BTN_Khoai_tay_chien.UseVisualStyleBackColor = true;
+            // 
+            // BTN_Cam
+            // 
+            this.BTN_Cam.Location = new System.Drawing.Point(326, 76);
+            this.BTN_Cam.Name = "BTN_Cam";
+            this.BTN_Cam.Size = new System.Drawing.Size(75, 23);
+            this.BTN_Cam.TabIndex = 12;
+            this.BTN_Cam.Text = "Cam";
+            this.BTN_Cam.UseVisualStyleBackColor = true;
+            // 
+            // BTN_Cafe
+            // 
+            this.BTN_Cafe.Location = new System.Drawing.Point(245, 76);
+            this.BTN_Cafe.Name = "BTN_Cafe";
+            this.BTN_Cafe.Size = new System.Drawing.Size(75, 23);
+            this.BTN_Cafe.TabIndex = 11;
+            this.BTN_Cafe.Text = "Cafe";
+            this.BTN_Cafe.UseVisualStyleBackColor = true;
+            // 
+            // BTN_Lipton
+            // 
+            this.BTN_Lipton.Location = new System.Drawing.Point(326, 47);
+            this.BTN_Lipton.Name = "BTN_Lipton";
+            this.BTN_Lipton.Size = new System.Drawing.Size(75, 23);
+            this.BTN_Lipton.TabIndex = 10;
+            this.BTN_Lipton.Text = "Lipton";
+            this.BTN_Lipton.UseVisualStyleBackColor = true;
+            // 
+            // BTN_7_up
+            // 
+            this.BTN_7_up.Location = new System.Drawing.Point(245, 47);
+            this.BTN_7_up.Name = "BTN_7_up";
+            this.BTN_7_up.Size = new System.Drawing.Size(75, 23);
+            this.BTN_7_up.TabIndex = 9;
+            this.BTN_7_up.Text = "7 up";
+            this.BTN_7_up.UseVisualStyleBackColor = true;
+            // 
+            // BTN_Coca
+            // 
+            this.BTN_Coca.Location = new System.Drawing.Point(326, 18);
+            this.BTN_Coca.Name = "BTN_Coca";
+            this.BTN_Coca.Size = new System.Drawing.Size(75, 23);
+            this.BTN_Coca.TabIndex = 8;
+            this.BTN_Coca.Text = "Coca";
+            this.BTN_Coca.UseVisualStyleBackColor = true;
+            // 
+            // BTN_Pepsi
+            // 
+            this.BTN_Pepsi.Location = new System.Drawing.Point(245, 18);
+            this.BTN_Pepsi.Name = "BTN_Pepsi";
+            this.BTN_Pepsi.Size = new System.Drawing.Size(75, 23);
+            this.BTN_Pepsi.TabIndex = 4;
+            this.BTN_Pepsi.Text = "Pepsi";
+            this.BTN_Pepsi.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.button4.Location = new System.Drawing.Point(138, 105);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(101, 23);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Cơm Gà Tender";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // BTN_Ga_Ran
+            // 
+            this.BTN_Ga_Ran.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.BTN_Ga_Ran.Location = new System.Drawing.Point(138, 76);
+            this.BTN_Ga_Ran.Name = "BTN_Ga_Ran";
+            this.BTN_Ga_Ran.Size = new System.Drawing.Size(101, 23);
+            this.BTN_Ga_Ran.TabIndex = 6;
+            this.BTN_Ga_Ran.Text = "Gà rán phần";
+            this.BTN_Ga_Ran.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Ga_Ran.UseVisualStyleBackColor = true;
+            this.BTN_Ga_Ran.Click += new System.EventHandler(this.BTN_Ga_Ran_Click);
+            // 
+            // BTN_Ga_Vien
+            // 
+            this.BTN_Ga_Vien.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.BTN_Ga_Vien.Location = new System.Drawing.Point(138, 47);
+            this.BTN_Ga_Vien.Name = "BTN_Ga_Vien";
+            this.BTN_Ga_Vien.Size = new System.Drawing.Size(101, 23);
+            this.BTN_Ga_Vien.TabIndex = 5;
+            this.BTN_Ga_Vien.Text = "Gà viên Cola";
+            this.BTN_Ga_Vien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_Ga_Vien.UseVisualStyleBackColor = true;
+            // 
+            // BTN_tom_vien
+            // 
+            this.BTN_tom_vien.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.BTN_tom_vien.Location = new System.Drawing.Point(138, 18);
+            this.BTN_tom_vien.Name = "BTN_tom_vien";
+            this.BTN_tom_vien.Size = new System.Drawing.Size(101, 23);
+            this.BTN_tom_vien.TabIndex = 4;
+            this.BTN_tom_vien.Text = "Tôm viên Cola";
+            this.BTN_tom_vien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_tom_vien.UseVisualStyleBackColor = true;
+            // 
             // BTN_Pho_mai_ca
             // 
             this.BTN_Pho_mai_ca.ForeColor = System.Drawing.Color.Red;
@@ -137,123 +246,28 @@
             this.BTN_Pho_mai_bo.Text = "Burger Phô mai Bò";
             this.BTN_Pho_mai_bo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTN_Pho_mai_bo.UseVisualStyleBackColor = true;
+            this.BTN_Pho_mai_bo.Click += new System.EventHandler(this.BTN_Pho_mai_bo_Click);
             // 
-            // BTN_tom_vien
+            // CB_Table
             // 
-            this.BTN_tom_vien.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.BTN_tom_vien.Location = new System.Drawing.Point(138, 18);
-            this.BTN_tom_vien.Name = "BTN_tom_vien";
-            this.BTN_tom_vien.Size = new System.Drawing.Size(101, 23);
-            this.BTN_tom_vien.TabIndex = 4;
-            this.BTN_tom_vien.Text = "Tôm viên Cola";
-            this.BTN_tom_vien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_tom_vien.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Ga_Vien
-            // 
-            this.BTN_Ga_Vien.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.BTN_Ga_Vien.Location = new System.Drawing.Point(138, 47);
-            this.BTN_Ga_Vien.Name = "BTN_Ga_Vien";
-            this.BTN_Ga_Vien.Size = new System.Drawing.Size(101, 23);
-            this.BTN_Ga_Vien.TabIndex = 5;
-            this.BTN_Ga_Vien.Text = "Gà viên Cola";
-            this.BTN_Ga_Vien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Ga_Vien.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Ga_Ran
-            // 
-            this.BTN_Ga_Ran.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.BTN_Ga_Ran.Location = new System.Drawing.Point(138, 76);
-            this.BTN_Ga_Ran.Name = "BTN_Ga_Ran";
-            this.BTN_Ga_Ran.Size = new System.Drawing.Size(101, 23);
-            this.BTN_Ga_Ran.TabIndex = 6;
-            this.BTN_Ga_Ran.Text = "Gà rán phần";
-            this.BTN_Ga_Ran.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_Ga_Ran.UseVisualStyleBackColor = true;
-            this.BTN_Ga_Ran.Click += new System.EventHandler(this.BTN_Ga_Ran_Click);
-            // 
-            // button4
-            // 
-            this.button4.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button4.Location = new System.Drawing.Point(138, 105);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(101, 23);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Cơm Gà Tender";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Pepsi
-            // 
-            this.BTN_Pepsi.Location = new System.Drawing.Point(245, 18);
-            this.BTN_Pepsi.Name = "BTN_Pepsi";
-            this.BTN_Pepsi.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Pepsi.TabIndex = 4;
-            this.BTN_Pepsi.Text = "Pepsi";
-            this.BTN_Pepsi.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Coca
-            // 
-            this.BTN_Coca.Location = new System.Drawing.Point(326, 18);
-            this.BTN_Coca.Name = "BTN_Coca";
-            this.BTN_Coca.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Coca.TabIndex = 8;
-            this.BTN_Coca.Text = "Coca";
-            this.BTN_Coca.UseVisualStyleBackColor = true;
-            // 
-            // BTN_7_up
-            // 
-            this.BTN_7_up.Location = new System.Drawing.Point(245, 47);
-            this.BTN_7_up.Name = "BTN_7_up";
-            this.BTN_7_up.Size = new System.Drawing.Size(75, 23);
-            this.BTN_7_up.TabIndex = 9;
-            this.BTN_7_up.Text = "7 up";
-            this.BTN_7_up.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Lipton
-            // 
-            this.BTN_Lipton.Location = new System.Drawing.Point(326, 47);
-            this.BTN_Lipton.Name = "BTN_Lipton";
-            this.BTN_Lipton.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Lipton.TabIndex = 10;
-            this.BTN_Lipton.Text = "Lipton";
-            this.BTN_Lipton.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Cafe
-            // 
-            this.BTN_Cafe.Location = new System.Drawing.Point(245, 76);
-            this.BTN_Cafe.Name = "BTN_Cafe";
-            this.BTN_Cafe.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Cafe.TabIndex = 11;
-            this.BTN_Cafe.Text = "Cafe";
-            this.BTN_Cafe.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Cam
-            // 
-            this.BTN_Cam.Location = new System.Drawing.Point(326, 76);
-            this.BTN_Cam.Name = "BTN_Cam";
-            this.BTN_Cam.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Cam.TabIndex = 12;
-            this.BTN_Cam.Text = "Cam";
-            this.BTN_Cam.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Khoai_tay_chien
-            // 
-            this.BTN_Khoai_tay_chien.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.BTN_Khoai_tay_chien.Location = new System.Drawing.Point(245, 105);
-            this.BTN_Khoai_tay_chien.Name = "BTN_Khoai_tay_chien";
-            this.BTN_Khoai_tay_chien.Size = new System.Drawing.Size(156, 23);
-            this.BTN_Khoai_tay_chien.TabIndex = 13;
-            this.BTN_Khoai_tay_chien.Text = "Khoai tây chiên";
-            this.BTN_Khoai_tay_chien.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(166, 251);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(148, 21);
-            this.comboBox1.TabIndex = 4;
+            this.CB_Table.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.CB_Table.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.CB_Table.FormattingEnabled = true;
+            this.CB_Table.Items.AddRange(new object[] {
+            "Bàn số 1",
+            "Bàn số 2",
+            "Bàn số 3",
+            "Bàn số 4",
+            "Bàn số 5",
+            "Bàn số 6",
+            "Bàn số 7",
+            "Bàn số 8",
+            "Bàn số 9",
+            "Bàn số 10"});
+            this.CB_Table.Location = new System.Drawing.Point(166, 251);
+            this.CB_Table.Name = "CB_Table";
+            this.CB_Table.Size = new System.Drawing.Size(148, 21);
+            this.CB_Table.TabIndex = 4;
             // 
             // BTN_Order
             // 
@@ -333,7 +347,7 @@
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.BTN_Order);
             this.Controls.Add(this.BTN_Exit);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CB_Table);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -366,7 +380,7 @@
         private System.Windows.Forms.Button BTN_7_up;
         private System.Windows.Forms.Button BTN_Coca;
         private System.Windows.Forms.Button BTN_Pepsi;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CB_Table;
         private System.Windows.Forms.Button BTN_Exit;
         private System.Windows.Forms.Button BTN_Order;
         private System.Windows.Forms.ListView listView1;
